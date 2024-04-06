@@ -12,11 +12,19 @@ import './App.css';
 // import Fnlist from './Function Components/list.js';
 // import TableCustom from './Function Components/props/table.js';
 // import Btn from './Function Components/props/simplebutton/button.js';
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 import CustCurosel from './Styling React app/Navbar.js';
 import CardExample from './Styling React app/Images.js';
 import BasicExample from './Styling React app/toast.js';
 import StaticExample from './Styling React app/models.js';
+<<<<<<< Updated upstream
 import ArrayFruits from './ClassComponents/States 02-apr/array.js'; 
+=======
+// import ArrayFruits from './ClassComponents/States 02-apr/array.js'; 
+>>>>>>> Stashed changes
 
 
 var App=(()=>{
@@ -29,6 +37,26 @@ var App=(()=>{
        <StaticExample/>
        </div>
        {/* <ArrayFruits/> */}
+<<<<<<< Updated upstream
+=======
+
+       {/* <div id='Compo'>
+        <span>
+       <Fntable/>
+       <Forms/>
+       <Fnimage/>
+       <Fnlist/>
+       </span>
+    
+       <span>
+       <CustomTable/>
+       <CusForms/>
+       <CustImag/>
+       <Clist/> */}
+    {/* </span>
+      // </div>
+         */}
+>>>>>>> Stashed changes
        </>
     )
 })
