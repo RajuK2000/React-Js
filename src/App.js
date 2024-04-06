@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// import CustomTable from './ClassComponents/table.js';
+// import CustImag from './ClassComponents/image.js';
+// import Clist from './ClassComponents/lists.js';
+// import CusForms from './ClassComponents/Cform.js';
 
+// import Forms from './Function Components/form.js';
+// import Fntable from './Function Components/table.js';
+// import Fnimage from './Function Components/image.js';
+// import Fnlist from './Function Components/list.js';
+// import TableCustom from './Function Components/props/table.js';
+// import Btn from './Function Components/props/simplebutton/button.js';
+import CustCurosel from './Styling React app/Navbar.js';
+import CardExample from './Styling React app/Images.js';
+import BasicExample from './Styling React app/toast.js';
+import StaticExample from './Styling React app/models.js';
+import ArrayFruits from './ClassComponents/States 02-apr/array.js'; 
+
+
+var App=(()=>{
+    return(
+       <>
+       <CustCurosel/>
+       <CardExample/>
+       <div id="exple">
+       <BasicExample/>
+       <StaticExample/>
+       </div>
+       {/* <ArrayFruits/> */}
+       </>
+    )
+})
 export default App;
