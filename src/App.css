@@ -27,3 +27,8 @@ h3{
 body{
   background-color: aliceblue;
 }
+#Compo{
+  display: flex;
+  column-gap: 50%;
+  margin-left: 5%;
+}
