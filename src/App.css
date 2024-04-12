@@ -1,4 +1,4 @@
-/* table,tr,td,th{
+/* /* table,tr,td,th{
   border: 2px solid;
   border-collapse: collapse;
   text-align: center;
@@ -24,6 +24,14 @@ h3{
   flex-direction: row;
   
 } */
-body{
+/* body{
   background-color: aliceblue;
+}
+#Compo{
+  display: flex;
+  column-gap: 50%;
+  margin-left: 5%;
+}  */
+body{
+  text-align: center;
 }
