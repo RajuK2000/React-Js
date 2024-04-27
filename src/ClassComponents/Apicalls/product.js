@@ -138,8 +138,8 @@ this.setState({
           this.state.products.map(eachObj=>{
             const {title,description,thumbnail,totalprice,count,price} = eachObj
             return(
-          <div id="card">
               
+          <div id="card">
               <h3>{title}</h3>
               <h3>{description}</h3>
               <img src={thumbnail} alt="img" width={300} height={200}></img>

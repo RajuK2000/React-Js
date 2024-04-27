@@ -1,0 +1,32 @@
+#form{
+    border: 2px solid black;
+    height: 250px;
+    width: 400px;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    left: 38%;
+    margin: 20px;
+ 
+
+}
+input{
+   margin: 10px; 
+}
+table,tr,td,th{
+    border: 2px solid rgb(126, 35, 35);
+    color: blue;
+    border-radius: 10px;
+}
+#tb{
+
+position: absolute;
+left:48%;
+
+}
+td{
+    font-size: 20px;
+    height: 20px;
+    width: 50px;
+}

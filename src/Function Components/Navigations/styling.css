@@ -1,0 +1,58 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; 
+}
+#sub{
+    height: 550px;
+    width: 450px;
+    border: 2px solid black;
+    text-align: center;
+}
+#img1{
+    height: 300px;
+    width: 300px;
+    mix-blend-mode: multiply;
+}
+.text{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+#forms{
+
+    text-align: center;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+    
+}
+input{
+    margin-top: 10px;
+}
+#for{
+    display: inline-flex;
+text-align: center;
+justify-content: center;
+
+}
+.cart{
+  
+    padding: 20px;
+}
+.main{
+    border: 2px solid black;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 400px; */
+    justify-content: center;
+}
+.main1{
+    padding: 10px;
+    
+}
